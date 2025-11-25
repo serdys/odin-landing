@@ -21,6 +21,19 @@ a {
     color: #e5e7eb;
 }
 
+body {
+    background-color: black;
+    /* width: ; */
+}
+
+.content {
+    /* width: 800px; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* max-width: 800; */
+}
+
 .link {
     margin: 0px 5px;
 }
@@ -61,6 +74,7 @@ a {
 .statistics-block {
     text-align: center;
     padding: 30px 0px 50px 0px;
+    background-color: white;
 }
 
 .statistics-block h3 {
@@ -90,7 +104,8 @@ a {
 .quote {
     text-align: center;
     background-color: #e5e7eb;
-    width: 700px;
+    padding: 40px 200px;
+    /* width: 700px; */
 }
 
 .quote-text {
@@ -103,4 +118,41 @@ a {
     text-align: end;
     font-weight: bold;
     font-size: 18px;
+}
+
+.cot {
+    background-color: white;
+}
+
+.cot-card {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px 100px;
+    margin: 40px 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cot-card button {
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882f6;
+    padding: 4px 30px;
+}
+
+.cot-card p {
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+footer {
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 30px;
 }
